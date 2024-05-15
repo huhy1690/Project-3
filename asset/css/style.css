@@ -63,13 +63,13 @@ a {
     position: sticky;
     top: 0;
     left: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: var(--color-bg);
     z-index: 1;
 }
 
-.header-top {
+.header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,6 +125,8 @@ a {
 }
 
 .navbar__link {
+    display: flex;
+    align-self: center;
     color: #C9D2DA;
     margin-left: 42px;
     font-size: 1.6rem;
@@ -735,7 +737,7 @@ a {
     text-decoration: underline;
 }
 
-ul {
+.footer ul {
     margin-bottom: 28px;
 }
 

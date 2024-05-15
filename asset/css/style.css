@@ -494,12 +494,12 @@ a {
     line-height: 1.85;
 }
 
-.member__action {
+.section__action {
     display: flex;
     justify-content: center;
 }
 
-.member__action-next {
+.section__action-next {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -514,13 +514,312 @@ a {
     transition: 0.25s;
 }
 
-.member__action-next:hover {
+.section__action-next:hover {
     background-color: var(--color-btn);
     border-color: var(--color-btn);
     color: #FFF;
 }
 
-.member__action-next-right {
+.section__action-next-right {
     rotate: 180deg;
 }
 
+/* ================================================ install =============================================== */
+
+.install {
+    padding-bottom: 170px;
+}
+
+.install .container {
+    display: flex;
+    align-items: center;
+    height: 427px;
+    background-color: var(--color-btn);
+}
+
+.install__img {
+    display: block;
+    margin-left: 70px;
+    margin-top: -95px;
+    margin-right: 160px;
+}
+
+.install__heading {
+    width: 489px;
+    margin-bottom: 18px;
+}
+
+.install__desc {
+    width: 586px;
+    margin-bottom: 38px;
+}
+
+.install-btn__img {
+    margin-right: 28px;
+}
+
+/* ================================================ News =============================================== */
+
+.new .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 170px;
+}
+
+.new__heading {
+    width: 470px;
+    margin-bottom: 28px;
+}
+
+.blog__see {
+    display: block;
+    margin-bottom: 28px;
+    color: var(--color-bg);
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.55;
+    text-decoration-line: underline;
+}
+
+.new__action {
+    display: flex;
+    justify-content: start;
+    margin-left: -17px;
+}
+
+.new-blog {
+    display: flex;
+    gap: 30px;
+}
+
+.new-blog__item {
+    width: 270px;
+    height: 375px;
+    border-radius: 12px;
+    border: 1px solid #E8EBEE;
+    background: #FFF;
+    box-shadow: 0px 10px 19px 11px rgba(0,0,0,0.1);
+}
+
+.new-blog__img {
+    width: 270px;
+    height: 172px;
+    border-radius: 12px 12px 0px 0px;
+    object-fit: cover;
+}
+
+.new-blog__body {
+    padding: 18px 22px;
+}
+
+.new-blog__body--heading {
+    color: var(--color-bg);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.62;
+}
+
+.new-blog__body--desc {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: var(--color-desc);
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.71;
+}
+
+.new-blog__body--action {
+    color: var(--color-bg);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.new-blog__body--action:hover {
+    color: var(--color-btn);
+}
+
+/* ================================================ Appointment =============================================== */
+.appointment {
+    margin-bottom: 170px;
+}
+
+.appointment .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 452px;
+    background-color: #F6FBFF;
+}
+
+.appointment__heading {
+    position: relative;
+    margin-top: 100px;
+}
+
+.appointment__heading::after {
+    position: absolute;
+    bottom: -18px;
+    left: calc(50% - 136px / 2);
+    content: "";
+    width: 136px;
+    height: 2px;
+    background: #2E80CE;
+}
+
+.appointment__desc {
+    margin: 38px 0;
+    width: 617px;
+    text-align: center;
+}
+
+.appointment__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
+    height: 60px;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+    background: var(--color-btn)
+}
+
+/* ================================================ Footer =============================================== */
+
+
+.footer {
+    background-color: var(--color-bg);
+    padding-bottom: 42px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer__desc {
+    color: #A9B3BB;
+    font-family: "Open Sans", sans-serif;
+    width: 336px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 21px;
+}
+
+.footer-column__heading {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.footer-column__item {
+    color: #A9B3BB;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-column__item:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin-bottom: 28px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 28px;
+}
+
+.social__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: var(--color-btn);
+    background-color: #FFF;
+}
+
+.social__wrap:hover {
+    background-color: var(--color-btn);
+    color: #FFF;
+}
+
+.footer-column__desc {
+    color: #A9B3BB;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    width: 273px;
+}
+
+.email-form {
+    margin-top: 10px;
+    display: flex;
+}
+
+.email-form__input {
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    margin-right: 12px;
+    padding: 0 10px;
+    border: 1px solid #406181;
+    color: #9CA8B1;
+    background-color: var(--color-bg);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.email-form__btn {
+    width: 108px;
+    height: 46px;
+    border-radius: 4px;
+    border: none;
+    background: #2E80CE;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85;
+    cursor: pointer;
+}
+
+.email-form__btn:hover {
+    background-color: rgba(46, 128, 206, 0.8);
+}
+
+.footer__line {
+    width: 100%;
+    height: 1px;
+    background: #406181;
+}
+
+.footer__web {
+    margin-top: 28px;
+    color: #AAB3BA;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
